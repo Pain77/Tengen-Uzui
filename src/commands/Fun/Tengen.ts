@@ -9,7 +9,7 @@ export default class Command extends BaseCommand {
         super(client, handler, {
             command: 'tengen',
             description: 'Chat with Tengen.',
-            aliases: ['uzui'],
+            aliases: ['uzui','tu'],
             category: 'fun',
             usage: `${client.config.prefix}zerotwo (text)`
         })
