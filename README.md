@@ -92,7 +92,7 @@ Or :
 
 |Fun| usage|
 |----|--------|
-|Triggered| Tag a photo while commanding, given image would be triggered xD|
+|Triggered| Tag a photo while commanding, given image would be triggered XD|
 |Chess| Launches a game of chess straight in the group chat, YES THIS IS THE FUTURE! EMBRACE IT!|
 | Reaction  | React using Pat,Hug, ... |
 | Ship      | Ship People              |
@@ -102,7 +102,7 @@ Or :
 
 |Misc| usage|
 |----|--------|
-|Hi| WELL|
+|Hi| Oi Oi Oi!|
 |Retrieve| Retrieve viewOnceMessage WhatsApp Message|
 
 |Moderation| usage|
