@@ -23,10 +23,10 @@ export default class Command extends BaseCommand {
 		{ joined }: IParsedArgs
 	): Promise<void> => {
 		if (!joined) return void M.reply("Give me a level 🎐\nExample: ${this.client.config.prefix}trivia [easy/medium/hard]");
-		const chitoge = joined.trim();
+		const tengen = joined.trim();
 		await axios
 			.get(
-				`https://opentdb.com/api.php?amount=1&difficulty=${chitoge}&type=multiple`
+				`https://opentdb.com/api.php?amount=1&difficulty=${tengen}&type=multiple`
 			)
 			.then((response) => {
 				// console.log(response);
