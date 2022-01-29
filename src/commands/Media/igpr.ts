@@ -21,9 +21,9 @@ export default class Command extends BaseCommand {
     run = async (M: ISimplifiedMessage, { joined }: IParsedArgs): Promise<void> => {
         
         if (!joined) return void M.reply('Provide the keywords you wanna search, Baka!')
-        const lisa = joined.trim()
-        console.log(lisa)
-        const { data } = await axios.get(`https://api-xcoders.xyz/api/download/ig?url=${lisa}&apikey=Zl0clXuAbx`)
+        const tengen = joined.trim()
+        console.log(tengen)
+        const { data } = await axios.get(`https://api-xcoders.xyz/api/download/ig?url=${tengen}&apikey=Zl0clXuAbx`)
         if (data.result) return void M.reply( await request.buffer(`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEIJBLGeoanLhbUyzTNXLXXRPUDjUuDKIS8g&usqp=CAU`),
         MessageType.image,
                     undefined,
