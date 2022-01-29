@@ -1,8 +1,5 @@
-<p align="center">
-  <a href="/">
-    <img src="./lib/GitMedia/senkobot.jpg" width="120">
-  </a>
-</p>
+<div align="center">
+<a href="https://ibb.co/wQ4GK21"><img src="https://c.tenor.com/j8oJvmZ68AEAAAAC/kimetsu-no-yaiba-tengen-uzui.gif" alt="whatsapp-botto-void-init" border="0"></a>
 <p align="center">
   <a href="/">
     <img title="SenkoBot" src="https://img.shields.io/badge/-SENKOBOT-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge">
