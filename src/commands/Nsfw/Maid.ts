@@ -23,12 +23,12 @@ export default class Command extends BaseCommand {
 
 	run = async (M: ISimplifiedMessage): Promise<void> => {
 		// fetch result of https://nekos.life/api/v2/img/wallpaper from the API using axios
-		const wall = await akaneko.nsfw.maid();
+		const pain = await akaneko.nsfw.maid();
 		if (!(await this.client.getGroupData(M.from)).nsfw)
 			return void M.reply(
 				`This is not a NSFW group, Type !act nsfw to enable it 🎈`
 			);
-		const buffer = await request.buffer(wall).catch((e) => {
+		const buffer = await request.buffer(pain).catch((e) => {
 			return void M.reply(e.message);
 		});
 		while (true) {
@@ -45,12 +45,12 @@ export default class Command extends BaseCommand {
 						`This Error occurs when an image is sent via M.reply()\n Child Catch Block : \n${e}`
 					);
 					// console.log('Failed')
-					M.reply(`Could not fetch image. Here's the URL: ${wall}`);
+					M.reply(`Could not fetch image. Here's the URL: ${pain}`);
 				});
 				break;
 			} catch (e) {
 				// console.log('Failed2')
-				M.reply(`Could not fetch image. Here's the URL : ${wall}`);
+				M.reply(`Could not fetch image. Here's the URL : ${pain}`);
 				console.log(
 					`This Error occurs when an image is sent via M.reply()\n Parent Catch Block : \n${e}`
 				);
