@@ -10,7 +10,8 @@
     <img title="author" src="https://img.shields.io/badge/author-P-A-I-N-orange?style=for-the-badge&logo=github">
   </a>
 </p>
-> Tengen Uzui made using adiwajshing/Baileys library
+  
+> Tengen Uzui made using adiwajshing/Baileys library  
  <p>
   <img src ="https://img.shields.io/badge/npm-v8.1.3-green" />
   <img src="https://img.shields.io/badge/node-%3E%3D15.0.2-green" />
