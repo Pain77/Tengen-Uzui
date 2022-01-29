@@ -26,9 +26,9 @@ export default class Command extends BaseCommand {
 		if (!joined)
 			return void M.reply("Give me an element name/number/symbol 🎐");
 		// eslint-disable-next-line @typescript-eslint/no-explicit-any
-		const chitoge: any = joined.trim();
+		const tengen: any = joined.trim();
 		// eslint-disable-next-line @typescript-eslint/no-explicit-any
-		const search = await pTable(chitoge);
+		const search = await pTable(tengen);
 		console.log(search);
 		if (search === undefined) {
 			return void (await M.reply(
