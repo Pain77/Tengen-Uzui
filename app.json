@@ -1,5 +1,5 @@
 {
-  "name": "zero-two",
+  "name": "Tengen-Uzui",
   "description": "A WhatsApp Bot With Rich Anime Features.",
   "keywords": [
       "bot",
@@ -11,8 +11,8 @@
       "whatsapp-sticker-bot",
       "whatsapp-botto"
   ],
-  "website": "https://github.com/well300/zero-two#readme",
-  "repository": "https://github.com/well300/zero-two.git",
+  "website": "https://github.com/Pain77/Tengen-Uzui#readme",
+  "repository": "https://github.com/Pain77/Tengen-Uzui.git",
   "logo": "https://upload.wikimedia.org/wikipedia/en/7/71/Franxx_Zero_Two.jpg",
   "success_url": "/",
   "env": {
