@@ -26,6 +26,19 @@
 </p>
 </div>
 
+## Deploy the bot
+
+<div align="center">
+  
+A Fully Modular and Efficient Bot <br>
+  
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/Pain77/Tengen-Uzui)
+
+
+
+<div align="left">
+<br/>
+
 ## Clone this project
 
 ```cmd
