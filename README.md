@@ -163,7 +163,7 @@ Or :
 | weather | sends you weather report of a place|
 | calculator | calculates equations |
   
-and many more...
+and more...
 
 ---
 
