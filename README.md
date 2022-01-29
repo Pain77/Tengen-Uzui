@@ -73,47 +73,45 @@ Or :
 
 ## Features
 
-| Leveling | Yes |
-|:--------:|:---:|
-| Leveling | ✔️  |
+|Help| Displays all the available commands of bot in the group|
+|Mods| Displays the moderator's contact info|
+|Profile| Displays a generated profile of the tagged/mentioned user|
+|Xp| Views the tagged user's xp|
 
-| Sticker Maker | Yes |
-|:-------------:|:---:|
-| Sticker Image | ✔️  |
-| Sticker Gif   | ✔️  |
-| Sticker Url   | ✔️  |
+|Fun| usage|
+|----|--------|
+|Triggered| Tag a photo while commanding, given image would be triggered xD|
+|Chess| Launches a game of chess straight in the group chat, YES THIS IS THE FUTURE! EMBRACE IT!|
 
-|           Fun            | Yes |
-|:------------------------:|:---:|
-| Random Dark Jokes & Meme | ✔️  |
+|Misc| usage|
+|----|--------|
+|Delete| Deletes the quoted message, admin only feature|
+|Hi| WELL|
+|Void| View info :v|
 
-|   Downloader   | Yes |
-|:--------------:|:---:|
-| YouTube Audio  | ✔️  |
-| YouTube Video  | ✔️  |
-| YouTube Play   | ✔️  |
+|Moderation| usage|
+|----|--------|
+Activate| Activates certain bot features in a group chat|
+|Deactivate| Deactivates certain bot features in a group chat|
+|Promote| Promotes the tagged user as a admin on group chat, can be executed only if the one commanding is group admin|
+|Demote| Demotes the tagged user as a standard participant from an admin if he's one. Can work only when commanding user is himself a group admin|
+|Remove| Removes the tagged user from the group, can only work if the bot is an admin and the one commanding this too|
 
-| Timeline Refresher | Yes |
-|:------------------:|:---:|
-| Random Cogan       | ✔️  |
-| Random Cecan       | ✔️  |
+|Utils| usage|
+|----|--------|
+|Blur| Blurs the tagged image or the pfp of the user's commanding it|
+|Sticker| Converts the given gif/image into a webp sticker|
+|Subred| A random subreddit post based on the specified search would be fetched. (Sometimes nsfw posts can too be fetched so be careful)|
 
-|     Group      | Yes |
-|:--------------:|:---:|
-| Toogle Welcome | ✔️  |
+|Dev| usage|
+|----|--------|
+|Disable| Disables the specified bot command from being used in a group chat|
+|Enable| Enables the specified bot command so that it can be used again in a group chat|
+|Eval| Evaluates JavaScript|
+|Ban| Bans the given user from using the bot|
+|Unban| Unbans the given user, after this he/she can use the bot again|
 
-|   Game   | Yes |
-|:--------:|:---:|
-| Siapakah | ✔️  |
-
-|         Info          | Yes |
-|:---------------------:|:---:|
-| Check Premium Expired | ✔️  |
-| Check List Premium    | ✔️  |
-
-|      Owner      | Yes |
-|:---------------:|:---:|
-| Premium Add/Del | ✔️  |
+and many more...
 
 ---
 
