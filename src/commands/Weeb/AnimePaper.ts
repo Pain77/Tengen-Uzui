@@ -25,24 +25,24 @@ export default class Command extends BaseCommand {
 	): Promise<void> => {
 		// consider neko and kitsune in furry
 		const char = ["holo", "fox_girl", "kemonomimi", "feet"];
-		const chitoge = joined.trim().split(" ")[0].toLowerCase();
+		const tengen = joined.trim().split(" ")[0].toLowerCase();
 		let text = "";
 		char.map((c) => {
 			text += `📍${c.charAt(0).toUpperCase() + c.slice(1)}\n`;
 			// index % 4 === 3 ? (text += '\n') : (text += ' '.repeat(10 - c.length))
 		});
-		if (!chitoge)
+		if (!tengen)
 			return void M.reply(
 				`🪧 *OPTIONS:*\n${text}Use ${this.client.config.prefix}ac (option) to get Characters\nExample: ${this.client.config.prefix}animepaper neko`
 			);
-		if (!char.includes(chitoge))
+		if (!char.includes(tengen))
 			return void M.reply(
 				`✖️ Invalid option! 🧧\nUse ${this.client.config.prefix}animepaper to see all available options`
 			);
 
 		// fetch result of https://nekos.life/api/v2/img/ from the API using axios
 		const { data } = await axios.get(
-			`https://nekos.life/api/v2/img/${chitoge}`
+			`https://nekos.life/api/v2/img/${tengen}`
 		);
 		const buffer = await request.buffer(data.url).catch((e) => {
 			return void M.reply(e.message);
