@@ -25,9 +25,9 @@ export default class Command extends BaseCommand {
 	): Promise<void> => {
 		if (!joined)
 			return void (await M.reply(`Give me an anime character name, Baka!`));
-		const chitoge = joined.trim();
+		const tengen = joined.trim();
 		const client = new Character();
-		const chara = await client.character(chitoge).catch((err: any) => {
+		const chara = await client.character(tengen).catch((err: any) => {
 			return void M.reply(`Couldn't find any matching character.`)
 		});
 		//if (!chara)
