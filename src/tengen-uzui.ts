@@ -14,8 +14,8 @@ import EventHandler from "./Handlers/EventHandler";
 
 if (!process.env.MONGO_URI) throw new Error("MONGO URL IS NOT PROVIDED");
 const client = new WAClient({
-	name: process.env.NAME || "zero-two",
-	session: process.env.SESSION || "zero-two",
+	name: process.env.NAME || "Tengen-Uzui",
+	session: process.env.SESSION || "Tengen-Uzui",
 	prefix: process.env.PREFIX || ":",
 	mods: (process.env.MODS || "")
 		.split(",")
