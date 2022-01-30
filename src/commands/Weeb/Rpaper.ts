@@ -20,8 +20,8 @@ export default class Command extends BaseCommand {
 	}
 
 	run = async (M: ISimplifiedMessage): Promise<void> => {
-		const wall = await akaneko.wallpapers();
-		const buffer = await request.buffer(wall).catch((e) => {
+		const pain = await akaneko.wallpapers();
+		const buffer = await request.buffer(pain).catch((e) => {
 			return void M.reply(e.message);
 		});
 		while (true) {
@@ -38,12 +38,12 @@ export default class Command extends BaseCommand {
 						`This Error occurs when an image is sent via M.reply()\n Child Catch Block : \n${e}`
 					);
 					// console.log('Failed')
-					M.reply(`Could not fetch image. Here's the URL: ${wall}`);
+					M.reply(`Could not fetch image. Here's the URL: ${pain}`);
 				});
 				break;
 			} catch (e) {
 				// console.log('Failed2')
-				M.reply(`Could not fetch image. Here's the URL : ${wall}`);
+				M.reply(`Could not fetch image. Here's the URL : ${pain}`);
 				console.log(
 					`This Error occurs when an image is sent via M.reply()\n Parent Catch Block : \n${e}`
 				);
