@@ -21,7 +21,7 @@ export default class WAClient extends Base {
 	assets = new Map<string, Buffer>();
 	constructor(public config: IConfig) {
 		super();
-		this.browserDescription = ["Zero Two","safari","3.0"];
+		this.browserDescription = ["Tengen Uzui","safari","3.0"];
 		this.version = [3, 3234, 9];
 		this.logger.level = "fatal";
 
