@@ -23,8 +23,8 @@ export default class Command extends BaseCommand {
 		{ joined }: IParsedArgs
 	): Promise<void> => {
 		if (!joined) return void (await M.reply(`Give me a character name, Baka!`));
-		const chitoge = joined.trim();
-		const genshin = await genshindb.characters(chitoge);
+		const tengen = joined.trim();
+		const genshin = await genshindb.characters(tengen);
 		if (genshin === undefined) {
 			return void M.reply("No such character, Baka!");
 		}
