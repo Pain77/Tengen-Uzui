@@ -19,14 +19,14 @@ export default class Command extends BaseCommand {
 	}
 
 	run = async (M: ISimplifiedMessage): Promise<void> => {
-		const tengen = 
-			"https://c.tenor.com/j8oJvmZ68AEAAAPo/kimetsu-no-yaiba-tengen-uzui.mp4";
-		return void this.client.sendMessage(
-			M.from,
-			{ url: tengen },
-			MessageType.video,
-			{
-				quoted: M.WAMessage,
+        const n = [
+                './assets/menu-uzui/tengen-help1.mp4',
+		'./assets/menu-uzui/tengen-help2.mp4',
+		'./assets/menu-uzui/tengen-help3.mp4',
+		'./assets/menu-uzui/tengen-help4.mp4',
+        ]
+        let pain = n[Math.floor(Math.random() * n.length)]
+        return void this.client.sendMessage(M.from, { url: pain }, MessageType.video, {quoted:M.WAMessage,
 				mimetype: Mimetype.gif,
 				caption: `👋🏻 𝐊𝐨𝐧𝐢𝐜𝐡𝐢𝐰𝐚! *@${M.sender.username}*.
 ⥤ 𝐖𝐚𝐭𝐚𝐬𝐡𝐢 𝐍𝐨 𝐍𝐚𝐦𝐚𝐞 𝐖𝐚 𝐍𝐚𝐤𝐚𝐧𝐨 𝐍𝐢𝐧𝐨 𝐃𝐞𝐬𝐮 🩰
