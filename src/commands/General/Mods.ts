@@ -20,7 +20,7 @@ export default class Command extends BaseCommand {
 
 	run = async (M: ISimplifiedMessage): Promise<void> => {
 		const zerotwo =
-			"https://c.tenor.com/8s8KUJnQUsEAAAPo/riko-saikawa.mp4";
+			"https://c.tenor.com/4WE8RVRWiNcAAAPo/kimetsu-no-yaiba-demon-slayer.mp4";
 		return void this.client.sendMessage(
 			M.from,
 			{ url: zerotwo },
@@ -29,8 +29,9 @@ export default class Command extends BaseCommand {
 				quoted: M.WAMessage,
 				mimetype: Mimetype.gif,
 				caption: `🏮 ᴍᴏᴅᴇʀᴀᴛᴏʀꜱ\n
-╰• ʟᴏʀᴅ ʀᴀᴋᴇꜱʜ
-🎗ᴄᴏɴᴛᴀᴄᴛ: wa.me/918473956301?text=𝙝𝙚𝙡𝙡𝙤+ʀᴀᴋᴇꜱʜ
+╰• ░P░A░I░N░
+🎗ᴄᴏɴᴛᴀᴄᴛ: wa.me/919662713165?text=𝙝𝙚𝙡𝙡𝙤+ᴘᴀɪɴ
+💻ɢɪᴛʜᴜʙ: https://github.com/Pain77
 ──────────────────
 🅂🅄🄿🄿🄾🅁🅃 🄶🅁🄾🅄🄿                                        
 🎗 ᴛʏᴘᴇ !sᴜᴘᴘᴏʀᴛ ᴀɴᴅ ʙᴏᴛ ᴡɪʟʟ sᴇɴᴅ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ ʟɪɴᴋ ɪɴ ʏᴏᴜʀ ᴅᴍ!!!
