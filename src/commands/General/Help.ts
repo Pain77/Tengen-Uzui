@@ -24,12 +24,14 @@ export default class Command extends BaseCommand {
 		'./assets/menu-uzui/tengen-help2.mp4',
 		'./assets/menu-uzui/tengen-help3.mp4',
 		'./assets/menu-uzui/tengen-help4.mp4',
+		'./assets/menu-uzui/tengen-help5.mp4',
+		'./assets/menu-uzui/tengen-help6.mp4',
         ]
         let pain = n[Math.floor(Math.random() * n.length)]
         return void this.client.sendMessage(M.from, { url: pain }, MessageType.video, {quoted:M.WAMessage,
 				mimetype: Mimetype.gif,
 				caption: `👋🏻 𝐊𝐨𝐧𝐢𝐜𝐡𝐢𝐰𝐚! *@${M.sender.username}*.
-⥤ 𝐖𝐚𝐭𝐚𝐬𝐡𝐢 𝐍𝐨 𝐍𝐚𝐦𝐚𝐞 𝐖𝐚 𝐍𝐚𝐤𝐚𝐧𝐨 𝐍𝐢𝐧𝐨 𝐃𝐞𝐬𝐮 🩰
+⥤ 𝐈'𝐦 𝐓𝐡𝐞 𝐅𝐥𝐚𝐦𝐛𝐨𝐲𝐚𝐧𝐭 𝐓𝐞𝐧𝐠𝐞𝐧 𝐔𝐳𝐮𝐢 ⛓️
 ⥤ 𝐌𝐲 𝐏𝐫𝐞𝐟𝐢𝐱 𝐈𝐬 - "${this.client.config.prefix}"
 ➽─────────────────────❥
 1┊ᴅᴏɴ'ᴛ ᴄᴀʟʟ ᴍᴇ ᴛᴏ ᴀᴠᴏɪᴅ ʙʟᴏᴄᴋɪɴɢ.
