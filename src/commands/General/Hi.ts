@@ -25,7 +25,7 @@ export default class Command extends BaseCommand {
 			{
 				quoted: M.WAMessage,
 				mimetype: Mimetype.gif,
-				caption: `*_i think i have taken a liking to you. won't you be my darling 💋_*`,
+				caption: `*_𝙇𝙞𝙨𝙩𝙚𝙣, 𝙄 𝙖𝙢 𝙖 𝙜𝙤𝙙 𝙖𝙣𝙙 𝙮𝙤𝙪 𝙜𝙪𝙮𝙨 𝙖𝙧𝙚 𝙩𝙧𝙖𝙨𝙝‼️_*`,
 		    }
 		);
 	};
