@@ -25,7 +25,7 @@ export default class EventHandler {
               .join(', ')}*`
               
             : event.action === 'remove'
-            ? `*@${event.participants[0].split('@')[0]}* ʜᴀꜱ ʟᴇꜰᴛ ᴛʜᴇ ᴄʜᴀᴛ ᴀɴᴅ ɪɢ ᴡᴇ ᴅᴏɴ'ᴛ ɴᴇᴇᴅ ʜᴇʀ/ʜɪᴍ ʙᴀᴄᴋ ᴀɢᴀɪɴ 🌝`
+            ? `*@${event.participants[0].split('@')[0]}* ʜᴀꜱ ʟᴇꜰᴛ ᴛʜᴇ ᴄʜᴀᴛ ᴀɴᴅ ɪɢ ᴡᴇ ᴅᴏɴ'ᴛ ɴᴇᴇᴅ ʜᴇʀ/ʜɪᴍ ʙᴀᴄᴋ ᴀɢᴀɪɴ!`
             : `*@${event.participants[0].split('@')[0]}* got ${this.client.util.capitalize(event.action)}d${
                   event.actor ? ` by *@${event.actor.split('@')[0]}*` : ''
               }`
