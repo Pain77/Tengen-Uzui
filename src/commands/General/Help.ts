@@ -24,7 +24,6 @@ export default class Command extends BaseCommand {
 		'./assets/menu-uzui/tengen-help2.mp4',
 		'./assets/menu-uzui/tengen-help3.mp4',
 		'./assets/menu-uzui/tengen-help4.mp4',
-		'./assets/menu-uzui/tengen-help5.mp4',
         ]
         let pain = n[Math.floor(Math.random() * n.length)]
         return void this.client.sendMessage(M.from, { url: pain }, MessageType.video, {quoted:M.WAMessage,
