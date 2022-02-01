@@ -28,5 +28,11 @@ export default class Command extends BaseCommand {
             else {
                 await this.client.groupRemove(M.from, [user])
                 M.reply(`🏌️‍♂️Successfully Removed *${username}*`)
+            }
+        })
     }
 }
+
+
+
+
