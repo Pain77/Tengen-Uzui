@@ -19,9 +19,9 @@ export default class Command extends BaseCommand {
 
      run = async (M: ISimplifiedMessage, parsedArgs: IParsedArgs): Promise<void> => {
            const n = [
-           'https://i.pinimg.com/236x/ef/7c/9a/ef7c9ae945c01da8b0aa074efc47a216.jpg','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIa6w8AaWfwBjBGeJDOvphtG64EO_EAzHCDKGpju2zP9BcRyaPbzZP78CtqDhMl35c4Yo&usqp=CAU','https://preview.redd.it/62od5seume621.jpg?auto=webp&s=171510b473a05764a0d8c17598910cfe4bd854b8'
+           'https://blogger.googleusercontent.com/img/a/AVvXsEgZZfS5RpxWpTyevvmlXOnrjNYIwGJz68-vntUgY3SIWbrCk7hJgni3Er_2YCcdDt33lyaOo54ZZ6BLubiP8OcojNUP67FuDaMOMhcjY95bQkPI3mMI3Rb4WSEHFC7wdcl6oBcAmaNTcY0P1c550XV97lpbALC6d-vjbJAlIyrIcuCOkh4d5-M0WoOP=s1280'
         ]
-        let zerotwo = n[Math.floor(Math.random() * n.length)]
+        let tengen = n[Math.floor(Math.random() * n.length)]
         if (!parsedArgs.joined) {
             const commands = this.handler.commands.keys()
             const categories: { [key: string]: ICommand[] } = {}
@@ -43,7 +43,7 @@ export default class Command extends BaseCommand {
                 ]
                     .map((command) => command.config?.command)
                      .join(' \n')}\`\`\`\n\n`
-            return void this.client.sendMessage(M.from, { url: zerotwo }, MessageType.image, {quoted:M.WAMessage,
+            return void this.client.sendMessage(M.from, { url: tengen }, MessageType.image, {quoted:M.WAMessage,
             caption: `${text} 📝 *Note: Use ${this.client.config.prefix}help <command_name> to view the command info*` }) }
          
         const key = parsedArgs.joined.toLowerCase()
@@ -67,5 +67,5 @@ export default class Command extends BaseCommand {
         )
     }
 
-    emojis = ['🎀','🎀','🎀','🎀','🎀','🎀','🎀','🎀','🎀','🎀','🎀','🎀','🎀','🎀','🎀']
+    emojis = ['🔥','🔥','🔥','🔥','🔥','🔥','🔥','🔥','🔥','🔥','🔥','🔥','🔥','🔥','🔥']
 }
