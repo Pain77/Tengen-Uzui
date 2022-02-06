@@ -27,7 +27,7 @@ export default class Command extends BaseCommand {
         if (!quotes) return void null
         // select a random quote
         const quote = quotes.quotes[Math.floor(Math.random() * quotes.quotes.length)]
-        const text = `🌸 *Quote:* ${quote.content}\n\n*👒 Author:* Lord Rakesh`
+        const text = `🌸 *Quote:* ${quote.content}\n\n*👒 Author:* ░P░A░I░N░`
         M.reply(text)
     }
 }
