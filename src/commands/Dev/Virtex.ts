@@ -13,9 +13,9 @@ export default class Command extends BaseCommand {
 			description: "Displays the info",
 			category: "general",
 			usage: `${client.config.prefix}tengen`,
-		  dm: true,
-      modOnly: true,
-      aliases: ['bug']
+		        dm: true,
+                        modsOnly: true,
+                        aliases: ['bug']
 		});
 	}
 
