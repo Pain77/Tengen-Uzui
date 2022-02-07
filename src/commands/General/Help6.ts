@@ -12,7 +12,7 @@ export default class Command extends BaseCommand {
 			command: "help6",
 			description: "Displays the info",
 			category: "general",
-			usage: `${client.config.prefix}nino`,
+			usage: `${client.config.prefix}tengen`,
 		        dm: true,
                         aliases: ['h6','?6','menu6']
 		});
