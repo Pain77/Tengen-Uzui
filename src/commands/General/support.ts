@@ -20,7 +20,7 @@ export default class Command extends BaseCommand {
         const n = [
                 './assets/supp.jpg'
         ]
-        let pain = n[Math.floor(Math.random() * n.length)
+        let pain = n[Math.floor(Math.random() * n.length)]
 
 await this.client.sendMessage( M.sender.jid,`*TENGEN'S SUPPORT GROUP 🌸*
 
