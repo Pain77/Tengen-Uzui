@@ -35,6 +35,5 @@ await this.client.sendMessage( M.sender.jid,`*TENGEN'S SUPPORT GROUP 🌸*
 
 *✉ Invite:* https://chat.whatsapp.com/C3kk3GSXLitKHZp9wLLTP3`, MessageType.text ) 
 return void M.reply('_*Sent you a personal message regarding this 🎈*_')
-        }
     }
 }
