@@ -22,7 +22,6 @@ export default class Command extends BaseCommand {
         ]
         let pain = n[Math.floor(Math.random() * n.length)]
         return void this.client.sendMessage(M.from, { url: pain }, MessageType.jpg, {quoted:M.WAMessage,
-				mimetype: Mimetype.jpg,
 				caption: '
 
 await this.client.sendMessage( M.sender.jid,`*TENGEN'S SUPPORT GROUP 🌸*
