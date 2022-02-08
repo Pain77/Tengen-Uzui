@@ -29,7 +29,7 @@ export default class Command extends BaseCommand {
 			return void (await M.reply(`Please provide the Broadcast Message.`));
 		const term = joined.trim();
 		const gifs = [
-			"https://tenor.com/view/tengen-tengen-uzui-demon-slayer-gyutaro-gif-24808981"
+			'./assets/bc.mp4'
 		];
 		const selected = gifs[Math.floor(Math.random() * gifs.length)];
 		// eslint-disable-next-line @typescript-eslint/no-explicit-any
