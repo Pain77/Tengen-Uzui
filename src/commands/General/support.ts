@@ -26,6 +26,7 @@ export default class Command extends BaseCommand {
 			{ url: pain },
 			MessageType.jpg,
 			{
+				caption: '
 await this.client.sendMessage( M.sender.jid,`*TENGEN'S SUPPORT GROUP 🌸*
 
 *🉐 Info :* Jᴏɪɴ Oᴜʀ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ Tᴏ Aᴅᴅ Oᴜʀ Bᴏᴛ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ Oʀ Yᴏᴜ Cᴀɴ Asᴋ Aɴʏ Qᴜᴇʀʏ Rᴇɢᴀʀᴅɪɴɢ Tʜʀ Bᴏᴛ!!
@@ -38,7 +39,7 @@ await this.client.sendMessage( M.sender.jid,`*TENGEN'S SUPPORT GROUP 🌸*
 *🧣 Tittle: 『 Tengen Uzui 』🎈*
 
 *✉ Invite:* https://chat.whatsapp.com/C3kk3GSXLitKHZp9wLLTP3`, MessageType.text ) 
-return void M.reply('_*Sent you a personal message regarding this 🎈*_')
+return void M.reply('_*Sent you a personal message regarding this 🎈*_')'
         }
     }
 }
