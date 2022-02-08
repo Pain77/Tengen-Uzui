@@ -8,15 +8,15 @@ import { ISimplifiedMessage } from '../../typings'
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
-            command: 'z2',
+            command: 'tu',
         })
     }
 
     run = async (M: ISimplifiedMessage): Promise<void> => {
         const n = [
-            './assets/audio/zerotwo.mp3'
+            './assets/audio/tengen.mp3'
         ]
-        return void this.client.sendMessage(M.from, { url: well }, MessageType.audio, {quoted:M.WAMessage,
+        return void this.client.sendMessage(M.from, { url: pain }, MessageType.audio, {quoted:M.WAMessage,
             mimetype: Mimetype.mp4Audio,
         )
     }
