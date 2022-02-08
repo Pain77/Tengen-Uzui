@@ -23,7 +23,7 @@ export default class Command extends BaseCommand {
         let pain = n[Math.floor(Math.random() * n.length)]
         return void this.client.sendMessage(M.from, { url: pain }, MessageType.jpg, {quoted:M.WAMessage,
 				mimetype: Mimetype.jpg,
-				caption: 
+				caption: '
 
 await this.client.sendMessage( M.sender.jid,`*TENGEN'S SUPPORT GROUP 🌸*
 
@@ -37,6 +37,6 @@ await this.client.sendMessage( M.sender.jid,`*TENGEN'S SUPPORT GROUP 🌸*
 *🧣 Tittle: 『 Tengen Uzui 』🎈*
 
 *✉ Invite:* https://chat.whatsapp.com/C3kk3GSXLitKHZp9wLLTP3`, MessageType.text ) 
-return void M.reply('_*Sent you a personal message regarding this 🎈*_')
+return void M.reply('_*Sent you a personal message regarding this 🎈*_')'
     }
 }
