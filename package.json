@@ -75,7 +75,7 @@
         "mal-scraper": "^2.11.3",
         "mangadex-full-api": "^5.7.0",
         "mathjs": "^10.0.0",
-        "moment": "^2.29.1",
+        "moment": "^2.29.2",
         "mongoose": "^5.12.12",
         "mywaifulist-scraper": "^0.0.1",
         "node-cron": "^3.0.0",
